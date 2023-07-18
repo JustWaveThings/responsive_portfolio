@@ -5,7 +5,7 @@
 
 - Responsive from Desktop to iPhone5
 - Use following:
-  - Use Art direction <Picture> for responsive images
+  - Use Art direction picture for responsive images
   - AA at minimum for accessibility benchmarks
   - Use media queries
 - Match given design layouts to *approximate* pixel perfect reproduction, since I was only given PNG's to base my implementation on.
