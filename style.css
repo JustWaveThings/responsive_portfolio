@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif; */
 /* css variables  */
 
 :root {
+  box-sizing: border-box;
   --background-accent: #0a91b1;
   --background-main: #ffffff;
   --title-font: 'Libre Baskerville', serif;
