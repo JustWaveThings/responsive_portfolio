@@ -1,0 +1,23 @@
+{
+  "name": "responsive_portfolio",
+  "version": "1.0.0",
+  "description": "https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-personal-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustWaveThings/responsive_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustWaveThings/responsive_portfolio/issues"
+  },
+  "homepage": "https://github.com/JustWaveThings/responsive_portfolio#readme",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
