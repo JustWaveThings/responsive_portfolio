@@ -3,9 +3,11 @@ font-family: 'Roboto', sans-serif; */
 
 /* css variables  */
 
+/* *{
+  outline: 1px solid red;
+} */
+
 :root {
-  margin: 0;
-  padding: 0;
 
   --background-accent: #0a91b1;
   --background-main: #ffffff;
@@ -29,7 +31,6 @@ font-family: 'Roboto', sans-serif; */
 
 body {
   margin: 0;
-  outline: solid 1px blue;
   max-width: 100lvw;
   display: flex;
   justify-content: center;
@@ -41,7 +42,7 @@ body {
 }
 
 .projects-container {
-  outline: solid 3px red;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +61,6 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-bottom: 3rem;
-  outline: 1px solid green;
   z-index: 1;
 }
 
@@ -74,12 +74,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: solid 1px yellow;
   margin: 3rem;
 }
 
+
 .hero-picture-container {
-  outline: solid 4px red;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,14 +103,21 @@ body {
   margin: 0.5rem;
 }
 
-.hero .h2 {
-  outline: solid 8px blue;
-  margin-left: 1.5 rem;
-}
 
-.right-hero {
+
+.hero-right {
   background-color: white;
   box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(222, 214, 214, 0.891);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.hero-header {
+  margin-top: 1rem;
 }
 
 .hero-about{
@@ -118,12 +125,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+}
+
+.hero-links {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
 }
 
 .h2 {
-  outline: solid 8px red;
-  margin-left: 2.75rem;
+
+  margin: none;
+  padding: none;
+  display
 }
 
 .projects-container {
