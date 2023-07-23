@@ -133,8 +133,12 @@ body {
   font-family: var(--title-font);
   font-size: var(--header-font-size);
   color: var(--header-text-color);
-  margin: none;
   padding: none;
+}
+
+.h2.work,
+.h2.contact {
+  margin: 1.5rem 3rem;
 }
 
 .projects-container {
@@ -163,7 +167,7 @@ body {
 .contact {
   background-color: var(--background-accent);
   color: var(--text-color-light);
-  padding: 2rem 2.5rem;
+  padding: 2rem 3rem;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-bottom: 0;
@@ -189,7 +193,7 @@ body {
 
 .contact-info-cont > p:first-of-type {
   margin: 1rem 0rem;
-  outline: 1px solid red;
+
   max-width: 70%;
 }
 
