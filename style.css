@@ -329,7 +329,7 @@ a {
   }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 425px) {
   .center-container {
     z-index: -40;
     max-width: 100dvw;
