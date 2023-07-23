@@ -19,7 +19,14 @@
   --project-font-weight: 700;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
 body {
+
   margin: 0;
   max-width: 100lvw;
   display: flex;
@@ -318,5 +325,65 @@ a {
 
   .hero-links {
     display: none;
+  }
+}
+
+@media (max-width: 391px) {
+  .center-container {
+    z-index: -40;
+    max-width: 100dvw;
+
+
+  }
+
+  .bg-wave {
+    height: 10%;
+    overflow: hidden;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-picture-container {
+    margin-right: 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  picture > img {
+    width: 80dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-name {
+
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: min-content;
+    height:max-content
+    color: var(--header-text-color);
+  }
+  .hero-right {
+    padding: 1rem;
+
+  }
+
+  .hero-header {
+    align-self: center;
+  }
+
+  .hero-links {
+    display: flex;
+    justify-content: center;
   }
 }
