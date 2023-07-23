@@ -176,6 +176,7 @@ body {
 
 .contact-info-cont > header > h2 {
   color: var(--text-color-light);
+
 }
 
 .contact-icon {
@@ -332,8 +333,6 @@ a {
   .center-container {
     z-index: -40;
     max-width: 100dvw;
-
-
   }
 
   .bg-wave {
@@ -382,8 +381,27 @@ a {
     align-self: center;
   }
 
-  .hero-links {
+  .hero-links, .hero-links-contact {
     display: flex;
     justify-content: center;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .contact-info-cont > header > h2{
+    text-align: center;
+  }
+
+
+
+  .contact > picture > img {
+    width: 100dvw;
+    bottom: -100;
+    left: 0;
+    position: absolute;
   }
 }
