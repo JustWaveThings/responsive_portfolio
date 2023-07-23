@@ -273,6 +273,8 @@ a {
   .hero-picture-container {
     margin-bottom: 5rem;
     float: left;
+    z-index: 2;
+    margin-right: -100px;
   }
 
   .hero {
@@ -280,6 +282,7 @@ a {
     justify-content: center;
     align-items: center;
     outline: solid 5px green;
+    z-index: 1;
   }
 
   .hero-name {
@@ -304,7 +307,7 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding: 1rem;
+    padding: 2.5rem;
   }
 
   .hero-header {
@@ -312,6 +315,7 @@ a {
   }
 
   .hero-about {
+    float: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
