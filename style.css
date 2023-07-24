@@ -269,7 +269,7 @@ a {
 
 @media (max-width: 768px) {
   .center-container {
-    z-index: -40;
+
   }
 
   .hero-picture-container {
@@ -331,7 +331,6 @@ a {
 
 @media (max-width: 428px) {
   .center-container {
-    z-index: -40;
     max-width: 100dvw;
   }
 
@@ -362,7 +361,6 @@ a {
   }
 
   .hero-name {
-
     position: absolute;
     top: 75%;
     bottom: 0;
